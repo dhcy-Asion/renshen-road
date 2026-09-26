@@ -1,0 +1,12 @@
+{
+  "description": "人神之路 —— 伪3D 三车道跑酷",
+  "setting": {
+    "es6": false,
+    "minified": false,
+    "urlCheck": false,
+    "postcss": false
+  },
+  "compileType": "game",
+  "appid": "",
+  "projectname": "renshen-road"
+}

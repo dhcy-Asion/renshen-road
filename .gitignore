@@ -1,0 +1,17 @@
+# ---- 开发期自检产物（跑一次脚本就能重新生成，不进仓库）----
+.workbuddy-ai/tools/shots/
+
+# ---- 个人数据与工作记忆 ----
+.workbuddy-ai/backup/
+.workbuddy-ai/memory/
+
+# ---- 系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+.vscode/
+.idea/
+
+# ---- 依赖 ----
+node_modules/

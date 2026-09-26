@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>人神之路</title>
+<style>
+  html, body {
+    margin: 0; padding: 0; height: 100%;
+    background: #05060f; overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none; user-select: none;
+    touch-action: none;
+  }
+  #wrap {
+    position: fixed; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+  }
+  #game { display: block; }
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="game"></canvas></div>
+
+<!-- 顺序有依赖，不要调换 -->
+<script src="js/config.js"></script>
+<script src="js/level.js"></script>
+<script src="js/platform.js"></script>
+<script src="js/characters.js"></script>
+<script src="js/render.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/state.js"></script>
+<script>
+  window.addEventListener('load', function () {
+    window.Game.Main.start();
+  });
+</script>
+</body>
+</html>
